@@ -98,22 +98,30 @@ def summarize_with_forefront(text):
     Summarize text using Forefront API.
     """
     prompt = f"You are an expert in market research. Summarize the following information clearly and concisely:\n\n{text}"
-    response = query_forefront(prompt)
+    response = query_forefront(prompt, max_tokens=500)
     return response if response else "No summary available."
 
 
 def research_industry_with_summary(company_name):
+    # Retrieve raw industry data
     raw_data = research_industry(company_name)
 
-    # Summarize company info
-    summarized_company_info = summarize_with_forefront(raw_data["company_info"])
-    
-    # Summarize industry trends
-    summarized_trends = summarize_with_forefront(" ".join(raw_data["industry_trends"]))
+    # Combine all retrieved industry trends for a more complete summary
+    combined_trends = " ".join(raw_data["industry_trends"])
+
+    # Summarize with error handling
+    summarized_company_info = summarize_with_forefront(raw_data["company_info"] or "No company info available")
+    summarized_trends = summarize_with_forefront(combined_trends or "No industry trends available")
+
+    # Ensure summaries are not truncated
+    if len(summarized_company_info) < 50:
+        summarized_company_info += " (Info may be limited; please verify sources.)"
+    if len(summarized_trends) < 50:
+        summarized_trends += " (Trends may be incomplete; please verify sources.)"
 
     return {
-        "company_info": summarized_company_info,
-        "industry_trends": summarized_trends
+        "company_info": summarized_company_info.strip(),
+        "industry_trends": summarized_trends.strip()
     }
 
 if __name__ == "__main__":
