@@ -10,3 +10,4 @@ graphviz
 matplotlib
 langchain_community
 beautifulsoup4
+python-dotenv
