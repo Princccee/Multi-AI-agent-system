@@ -1,0 +1,12 @@
+openai
+langchain
+transformers
+serpapi
+streamlit
+gradio
+requests
+kaggle
+graphviz
+matplotlib
+langchain_community
+beautifulsoup4
