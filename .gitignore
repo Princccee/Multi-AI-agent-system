@@ -13,3 +13,5 @@ __pycache__/
 *.pkl
 *.ipynb_checkpoints/
 .env
+kaggle.json
+proposed_use_case.json
