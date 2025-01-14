@@ -62,8 +62,19 @@ Market_Research_UseCase_Agent/
     pip install -r requirements.txt
     ```
 
-4. **Set up Kaggle API key**:
+4. **Set up API key**:
     - Place your `kaggle.json` file in the root directory of the project.
+    - Create a .env file and store these API keys.
+    ```plaintext
+    FOREFRONT_API_KEY=your_forefront_api_key
+    SERPAPI_API_KEY=your_serpapi_api_key
+    KAGGLE_API_KEY=your_kaggle_api_key
+    HUGGINGFACE_API_KEY=your_huggingface_api_key
+    GITHUB_API_KEY=your_github_api_key
+    GOOGLE_API_KEY=your_google_api_key
+    GOOGLE_CSE_ID=your_google_cse_id
+    API_KEY=your_kaggle_api_key
+    ```
 
 5. **Run the demo**:
     ```sh
