@@ -1,9 +1,18 @@
 [
-    "1 AI/GenAI use cases for Tesla:",
-    "1. Autonomous Driving:",
-    "Integrate advanced AI and machine learning techniques into the Tesla vehicles to enable autonomous driving capabilities. This includes developing and training models for perception, planning, and control. Dataset: Camera, Lidar, Radar, and IMU data, as well as mapping and environmental information. Implementation: Train and deploy neural networks, reinforcement learning, and dynamic programming to enable autonomous driving features such as auto-pilot, lane change, and parking.",
-    "2. Vehicle Diagnostics and Maintenance:",
-    "Develop AI-driven predictive maintenance systems to optimize vehicle performance and reduce downtime. Analyze vehicle data, such as sensors, diagnostics, and telemetry, to predict malfunctions and recommend maintenance tasks. Dataset: Vehicle sensor data, repair history, and manufacturer recommendations. Implementation: Use anomaly detection, time series analysis, and machine learning models to predict maintenance needs and schedule them efficiently.",
-    "3. Personalized In-car Experiences:",
-    "Enhance in-car experiences by personalizing settings, recommendations, and content based on user preferences and behavior. This includes optimizing climate control, entertainment, and navigation. Dataset: User preferences, location data, and contextual information. Implementation: Utilize machine learning algorithms to train models that can adapt to user preferences and provide tailored recommendations and experiences"
+    "1 AI/GenAI use cases for Tata Steel:",
+    "1. Supply chain management:",
+    "* Dataset: Historical supply chain data, including material costs, delivery times, and supplier performance.",
+    "* Implementation: Develop AI-driven predictive analytics to optimize inventory management, forecast material requirements, and identify high-performing suppliers.",
+    "2. Production planning and scheduling:",
+    "* Dataset: Manufacturing data, such as production schedules, machine maintenance records, and material usage.",
+    "* Implementation: Utilize AI for production planning and scheduling, optimizing productivity, and reducing downtime by automating scheduling, predicting maintenance needs, and identifying bottlenecks.",
+    "3. Quality control:",
+    "* Dataset: Manufacturing data, including product defects, material variations, and process parameters.",
+    "* Implementation: Develop AI models for real-time quality monitoring, anomaly detection, and process optimization to maintain high-quality production and reduce waste.",
+    "4. Environmental sustainability:",
+    "* Dataset: Environmental data, such as energy consumption, carbon emissions, and waste generated.",
+    "* Implementation: Implement AI to optimize energy efficiency, reduce waste, and minimize environmental impact by identifying opportunities for process optimization and innovation.",
+    "5. Workforce productivity:",
+    "* Dataset: Workforce data, including skills, experience, and job performance.",
+    "* Implementation: Use AI to enhance worker productivity by automating tasks,"
 ]
