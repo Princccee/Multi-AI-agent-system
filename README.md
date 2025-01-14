@@ -78,12 +78,8 @@ Market_Research_UseCase_Agent/
 
 5. **Run the demo**:
     ```sh
-    python demo.py
-    ```
-
-6. **Run the main script**:
-    ```sh
-    python agents/main.py
+    cd agents
+    python main.py  # Execute the main.py file to start the app
     ```
 
 ---
