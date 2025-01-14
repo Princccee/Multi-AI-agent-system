@@ -21,7 +21,7 @@ The Multi-Agent system includes the following agents:
 
 ## Project Structure
 ```plaintext
-Market_Research_UseCase_Agent/
+Multi_agent_system/
 ├── README.md
 ├── agents
 │   ├── __init__.py
