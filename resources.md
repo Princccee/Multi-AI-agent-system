@@ -1,4 +1,4 @@
-# Resources for Use Case: Driverless cars
+# Resources for Use Case: No use cases could be generated.
 
 ## Kaggle Datasets
 
@@ -7,9 +7,9 @@
 ## HuggingFace Models
 
 ## Research Papers
-- [The Adaptability and Challenges of Autonomous Vehicles to Pedestrians in
-  Urban China](http://arxiv.org/abs/2007.13281v1)
-- [The Quantum Car](http://arxiv.org/abs/1512.03521v1)
-- [Optimizing Passenger Comfort in Cost Functions for Trajectory Planning](http://arxiv.org/abs/1811.06895v1)
-- [End-to-End Velocity Estimation For Autonomous Racing](http://arxiv.org/abs/2003.06917v2)
-- [Linear chaos for the Quick-Thinking-Driver model](http://arxiv.org/abs/1503.07745v1)
+- [Factorization, ladder operators and isospectral structures](http://arxiv.org/abs/quant-ph/9602003v1)
+- [No-Go theorem in the cubic subclass of Horndeski theory for spherically
+  symmetric dynamical background](http://arxiv.org/abs/2411.05416v1)
+- [Communication through measurements and unitary transformations](http://arxiv.org/abs/quant-ph/0310185v1)
+- [Algebraical Entropy and Arrow of Time](http://arxiv.org/abs/2211.00501v1)
+- [Mimetic Attractors](http://arxiv.org/abs/1508.00971v1)
